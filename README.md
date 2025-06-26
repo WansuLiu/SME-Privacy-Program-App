@@ -12,10 +12,10 @@
 ```
 privacy-roadmap-app/
 ├── Pages/
-│   ├── 1_Onboarding.py                  # Onboarding form and initial questions
+│   ├── 1_Onboarding.py                 # Onboarding form and initial questions
 │   ├── 2_Tier_Profile_and_Questions.py # Tier assessment and definitions
-│   ├── 3_Roadmap.py                    # Interactive task checklist
-│   └── 4_Profile.py                    # Profile summary and PDF export
+│   ├── 3_Roadmap.py                    # Privacy task checklist
+│   └── 4_Profile.py                    # Privacy report with PDF export option
 ├── roadmap_data.json                   # JSON version of roadmap
 ├── SOC 2 to NIST Privacy Framework - MileStone Descriptions.csv   # Tier descriptions per category
 ├── SOC 2 to NIST Privacy Framework - Roadmap.csv        # Raw roadmap used for JSON generation

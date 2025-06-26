@@ -8,18 +8,22 @@
 - **Automatic generated privacy reports**
   
 ## File Structure
-📦 privacy-roadmap-app/
+
+```
+privacy-roadmap-app/
 ├── Pages/
 │   ├── 1_Onboarding.py                  # Onboarding form and initial questions
 │   ├── 2_Tier_Profile_and_Questions.py # Tier assessment and definitions
 │   ├── 3_Roadmap.py                    # Interactive task checklist
 │   └── 4_Profile.py                    # Profile summary and PDF export
 ├── roadmap_data.json                   # JSON version of roadmap
-├── SOC 2 to NIST ...Descriptions.csv   # Tier descriptions per category
-├── SOC 2 to NIST ...Roadmap.csv        # Raw roadmap used for JSON generation
-├── convert_to_json.py                 # Script to convert CSV roadmap to JSON
+├── SOC 2 to NIST Privacy Framework - MileStone Descriptions.csv   # Tier descriptions per category
+├── SOC 2 to NIST Privacy Framework - Roadmap.csv        # Raw roadmap used for JSON generation
+├── convert_to_json.py                  # Script to convert CSV roadmap to JSON
 ├── main.py                             # Entry point and landing page
 └── README.md                           # You’re here!
+```
+
 
 ## Set Up Instructions
 1. Clone the Repository 
